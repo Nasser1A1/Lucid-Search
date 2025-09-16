@@ -1,0 +1,16 @@
+fastapi[standard]
+uvicorn
+sqlalchemy  # For database interactions
+pydantic     # For data validation (FastAPI uses Pydantic internally)
+python-jose  # For JWT authentication
+passlib[bcrypt] # For password hashing
+aiofiles    # For handling file uploads
+httpx       # For making async HTTP requests
+python-multipart # For handling form data
+pytest   # For testing
+tavily-python
+dotenv
+pydantic-settings
+trafilatura
+sentence_transformers
+google-genai
